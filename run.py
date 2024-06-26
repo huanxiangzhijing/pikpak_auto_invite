@@ -247,6 +247,7 @@ async def get_image(xid):
             return result
 
 
+
 def save_image(img_data, img_path):
     if not os.path.exists(os.path.dirname(img_path)):
         os.makedirs(os.path.dirname(img_path))
