@@ -84,6 +84,7 @@ def c(e, t):
 
 def img_jj(e, t, n):
     return {"ca": r(e, t), "f": c(n, t)}
+    
 
 
 def md5(input_string):
